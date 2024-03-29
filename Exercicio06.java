@@ -8,7 +8,7 @@ public class Exercicio06 {
         produto.custo = Prompt.lerDecimal();
         System.out.println("Informe percentual de acréscimo: ");
         produto.percentual = Prompt.lerDecimal();
-        Double valor =  produto.vender();
+        produto.vender();
 
         System.out.println("Valor de venda do produto é: R$" + produto.venda);
 
