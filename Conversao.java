@@ -3,7 +3,7 @@ public class Conversao {
     public double qtdDol;
     public double valorFinal;
 
-    public void conversãoDolar(double qtdDol){
+    public void converter(double qtdDol){
         valorFinal = qtdDol * cotação;
     }
 }

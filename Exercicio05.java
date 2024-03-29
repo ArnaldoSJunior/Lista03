@@ -8,7 +8,8 @@ public class Exercicio05 {
 
         System.out.println("Informe o valor da compra: ");
         loja.valorCompra = Prompt.lerDecimal();
-        loja.prestacao(loja.valorCompra);
+        loja.parcelar(loja.valorCompra);
         
+        System.out.println("Valor da parcela: R$" + loja.parcela );
     }
 }
