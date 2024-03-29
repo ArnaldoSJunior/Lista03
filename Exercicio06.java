@@ -1,4 +1,4 @@
-/*Faça um programa que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelousuário. */
+/*Faça um programa que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário. */
 public class Exercicio06 {
     public static void executar(){
 
@@ -8,9 +8,9 @@ public class Exercicio06 {
         produto.custo = Prompt.lerDecimal();
         System.out.println("Informe percentual de acréscimo: ");
         produto.percentual = Prompt.lerDecimal();
-        Double valor =  produto.valorVenda();
+        Double valor =  produto.vender();
 
-        System.out.println("");
+        System.out.println("Valor de venda do produto é: R$" + produto.venda);
 
     }
     

@@ -4,7 +4,7 @@ public class Produto {
     public Double percentual;
     public Double venda;
 
-    public Double valorVenda(){
+    public Double vender(){
         percentual = percentual/100;
         venda = custo + (custo * percentual);
         return venda;
