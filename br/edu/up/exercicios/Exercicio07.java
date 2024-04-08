@@ -9,11 +9,10 @@ public class Exercicio07 {
        
         CarroNovo carro = new CarroNovo();
 
-        System.out.println("Informe custo de fábrica do carro: ");
-        carro.custoFabrica = Prompt.lerDecimal();
+        carro.setCustoFabrica(Prompt.lerDecimal("Informe custo de fábrica do carro: "));
         carro.vender();
 
-        System.out.println("O custo do carro é de: R$" + carro.precoFinal);
+        System.out.println("O custo do carro é de: R$" + carro.getPrecoFinal());
       
 
 
