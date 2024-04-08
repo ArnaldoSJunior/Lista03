@@ -9,13 +9,11 @@ public class Exercicio06 {
 
         Produto produto = new Produto();
 
-        System.out.println("Informe preço de custo do produto: ");
-        produto.custo = Prompt.lerDecimal();
-        System.out.println("Informe percentual de acréscimo: ");
-        produto.percentual = Prompt.lerDecimal();
+        produto.setCusto(Prompt.lerDecimal("Informe preço de custo do produto: "));
+        produto.setPercentual( Prompt.lerDecimal("Informe percentual de acréscimo: "));
         produto.vender();
 
-        System.out.println("Valor de venda do produto é: R$" + produto.venda);
+        System.out.println("Valor de venda do produto é: R$" + produto.getVenda());
 
     }
     

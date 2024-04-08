@@ -2,13 +2,26 @@ package br.edu.up.modelos;
 
 public class Produto {
    
-    public Double custo;
-    public Double percentual;
-    public Double venda;
+    private Double custo;
+    private Double percentual;
+    private Double venda;
+
+    
+    
+    public Double getVenda() {
+        return venda;
+    }
+    public void setCusto(Double custo) {
+        this.custo = custo;
+    }
+    public void setPercentual(Double percentual) {
+        this.percentual = percentual;
+    }
+
 
     public Double vender(){
-        percentual = percentual/100;
-        venda = custo + (custo * percentual);
+        this.percentual = this.percentual/100;
+        this.venda = this.custo + (this.custo * this.percentual);
         return venda;
 
     }
