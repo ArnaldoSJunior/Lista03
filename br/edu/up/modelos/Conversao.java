@@ -1,10 +1,24 @@
 package br.edu.up.modelos;
 public class Conversao {
-    public double cotação;
-    public double qtdDol;
-    public double valorFinal;
+    
+    private double cotacao;
+    private double qtdDol;
+    private double valorFinal;
 
-    public void converter(double qtdDol){
-        valorFinal = qtdDol * cotação;
+
+
+    public void setCotacao(double cotacao) {
+        this.cotacao = cotacao;
+    }
+    public void setQtdDol(double qtdDol) {
+        this.qtdDol = qtdDol;
+    }
+    public double getValorFinal() {
+        return this.valorFinal;
+    }
+
+    public void converter(){
+        this.valorFinal = this.qtdDol * this.cotacao;
     }
 }
+
