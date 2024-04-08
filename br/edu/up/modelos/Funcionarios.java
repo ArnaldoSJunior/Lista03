@@ -1,3 +1,5 @@
+package br.edu.up.modelos;
+
 public class Funcionarios {
     public String[] nome = new String[8];
     public double[] salarioInicial = new double[8];

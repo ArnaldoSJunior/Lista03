@@ -1,4 +1,9 @@
 /*Faça um programa que receba a idade de um número finito de pessoas e mostre mensagem informando “maior de idade” e “menor de idade” para cada pessoa. Considerar a pessoa com 18anos como maior de idade */
+package br.edu.up.exercicios;
+
+import br.edu.up.modelos.Pessoas;
+import br.edu.up.modelos.Prompt;
+
 public class Exercicio10 {
     public static void executar(){
 

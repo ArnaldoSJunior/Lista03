@@ -1,3 +1,8 @@
+package br.edu.up.exercicios;
+
+import br.edu.up.modelos.Conversao;
+import br.edu.up.modelos.Prompt;
+
 public class Exercicio04 {
     public static void executar(){
         Conversao dol = new Conversao();

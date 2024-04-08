@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Conversao {
     public double cotação;
     public double qtdDol;

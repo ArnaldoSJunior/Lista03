@@ -1,4 +1,9 @@
 /*Escrever um programa que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta ou não para cumprir o serviço militar obrigatório. Informe os totais. */
+package br.edu.up.exercicios;
+
+import br.edu.up.modelos.Alistamento;
+import br.edu.up.modelos.Prompt;
+
 public class Exercicio13 {
     public static void executar(){
         Alistamento alistamento = new Alistamento();

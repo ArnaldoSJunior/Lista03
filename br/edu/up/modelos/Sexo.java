@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Sexo {
 
   public String[] nome = new String[56];

@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Loja {
 
     public Double valorCompra;

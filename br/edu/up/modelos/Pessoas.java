@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Pessoas {
     public int i, p;
     public int[] idade;

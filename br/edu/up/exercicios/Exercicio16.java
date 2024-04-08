@@ -1,3 +1,8 @@
+package br.edu.up.exercicios;
+
+import br.edu.up.modelos.Funcionarios;
+import br.edu.up.modelos.Prompt;
+
 public class Exercicio16 {
     public static void executar() {
         

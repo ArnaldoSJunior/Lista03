@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Lucratividade {
 
   public Double[] precoCusto = new Double[40];

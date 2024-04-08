@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Alunos {
     public String nome;
     public Double nota1;

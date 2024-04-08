@@ -1,4 +1,9 @@
 /*Escrever um programa que leia o nome e o sexo de 56 pessoas e informe o nome e se ela é homem ou mulher. No final informe total de homens e de mulheres */
+package br.edu.up.exercicios;
+
+import br.edu.up.modelos.Prompt;
+import br.edu.up.modelos.Sexo;
+
 public class Exercicio11 {
     public static void executar(){
 

@@ -1,8 +1,10 @@
 package br.edu.up;
 
+import br.edu.up.exercicios.Exercicio01;
+
 public class Program {
     public static void main(String[] args){
-        //Exercicio01.executar();
+        Exercicio01.executar();
         //Exercicio02.executar();
         //Exercicio03.executar();
         //Exercicio04.executar();
@@ -18,7 +20,7 @@ public class Program {
         //Exercicio14.executar();
         //Exercicio15.executar();
         //Exercicio16.executar();
-        Exercicio17.executar();
+        //Exercicio17.executar();
         //Exercicio18.executar();
         //Exercicio19.executar();
         //Exercicio20.executar();

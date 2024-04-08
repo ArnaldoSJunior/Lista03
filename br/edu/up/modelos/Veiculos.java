@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Veiculos {
     public Double valorDesc;
     public Double valorPgCliente;

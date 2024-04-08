@@ -1,3 +1,4 @@
+package br.edu.up.modelos;
 public class Numeros {
 
     public Double[] num = new Double[80];
