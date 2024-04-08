@@ -10,15 +10,15 @@ public class Exercicio01 {
     Aluno aluno = new Aluno();
 
     System.out.println("Informe os dados do Aluno: ");
-    aluno.nome = Prompt.lerLinha("Digite o nome do aluno");
-    aluno.nota1 = Prompt.lerDecimal("Digite a primeira nota: ");
-    aluno.nota2  = Prompt.lerDecimal("Digite a segunda nota: ");
-    aluno.nota3 = Prompt.lerDecimal("Digite a terceira nota: ");
+    aluno.setNome(Prompt.lerLinha("Digite o nome do aluno")); 
+    aluno.setNota1(Prompt.lerDecimal("Digite a primeira nota: "));
+    aluno.setNota2(Prompt.lerDecimal("Digite a segunda nota: "));
+    aluno.setNota3(Prompt.lerDecimal("Digite a terceira nota: "));;
+    aluno.calcular();
+    
 
-    double notaFinal = (aluno.nota1 + aluno.nota2 + aluno.nota3) / 3;
-
-        System.out.println("Nome: "+ aluno.nome);
-        System.out.println("Média: "+ notaFinal);
+        System.out.println("Nome: "+ aluno.getNome());
+        System.out.println("Média: "+ aluno.getMedia());
 }
    
 }
