@@ -10,22 +10,19 @@ public class Exercicio08 {
     Alunos aluno = new Alunos();
     
     System.out.println("-------------Informe dados do alunos------------------");
-    System.out.println("Nome:");
-    aluno.nome = Prompt.lerLinha();
-    System.out.println("Nota 1:");
-    aluno.nota1 = Prompt.lerDecimal();
-    System.out.println("Nota 2:");
-    aluno.nota2 = Prompt.lerDecimal();
-    System.out.println("Nota 3:");
-    aluno.nota3 = Prompt.lerDecimal();
+   
+    aluno.setNome(Prompt.lerLinha("Nome:"));
+    aluno.setNota1(Prompt.lerDecimal("Nota 1:"));
+    aluno.setNota2(Prompt.lerDecimal("Nota 2:"));
+    aluno.setNota3(Prompt.lerDecimal("Nota 3:"));
     aluno.calcular();
 
-    if(aluno.media >= 7){
-        System.out.println("Aprovado!");
-    }else if(aluno.media > 5 && aluno.media < 7){
-        System.out.println("Recuperação!");
+    if(aluno.getMedia() >= 7){
+        System.out.println(aluno.getNome() + "  Aprovado!");
+    }else if(aluno.getMedia() > 5 && aluno.getMedia() < 7){
+        System.out.println(aluno.getNome() +"  Recuperação!");
     }else{
-        System.out.println("Reprovado!");
+        System.out.println(aluno.getNome() +"  Reprovado!");
     }
 
 
