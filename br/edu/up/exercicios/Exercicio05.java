@@ -11,10 +11,9 @@ public class Exercicio05 {
 
         Loja loja = new  Loja();
 
-        System.out.println("Informe o valor da compra: ");
-        loja.valorCompra = Prompt.lerDecimal();
-        loja.parcelar(loja.valorCompra);
+        loja.setValorCompra(Prompt.lerDecimal("Informe o valor da compra: ")); 
+        loja.parcelar();
         
-        System.out.println("Valor da parcela: R$" + loja.parcela );
+        System.out.println("Valor da parcela: R$" + loja.getParcela());
     }
 }

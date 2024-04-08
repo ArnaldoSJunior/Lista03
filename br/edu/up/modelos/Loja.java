@@ -1,13 +1,21 @@
 package br.edu.up.modelos;
 public class Loja {
 
-    public Double valorCompra;
-    public Double parcela;
+    private Double valorCompra;
+    private Double parcela;
 
-    public void parcelar(Double valorCompra){
-     parcela = valorCompra/5;
-      
-
+    
+    public Double getParcela() {
+        return parcela;
     }
+
+    public void setValorCompra(Double valorCompra) {
+        this.valorCompra = valorCompra;
+    }
+
+
+    public void parcelar(){
+     parcela = this.valorCompra/5;
+     }
 
 }
