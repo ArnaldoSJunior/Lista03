@@ -1,6 +1,6 @@
 package br.edu.up;
 
-import br.edu.up.exercicios.Exercicio08;
+import br.edu.up.exercicios.Exercicio09;
 
 public class Program {
 public static void main(String[] args){
@@ -11,8 +11,8 @@ public static void main(String[] args){
         //Exercicio05.executar();
         //Exercicio06.executar();
         //Exercicio07.executar();
-        Exercicio08.executar();
-        //Exercicio09.executar();
+        //Exercicio08.executar();
+        Exercicio09.executar();
         //Exercicio10.executar();
         //Exercicio11.executar();
         //Exercicio12.executar();
